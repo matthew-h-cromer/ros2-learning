@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: py-pubsub
+Version: 0.0.1
+Summary: A minimal publisher/subscriber example
+Maintainer: Your Name
+Maintainer-email: you@example.com
+License: MIT
