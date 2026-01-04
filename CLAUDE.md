@@ -9,7 +9,7 @@ ROS2 Kilted workspace for learning.
 - Run node: `ros2 run <package> <executable>`
 
 ## Packages
-- `py_pubsub` - Basic publisher/subscriber example
+- `pubsub` - Basic publisher/subscriber example
 - `speech_recognition` - Local speech-to-text using Whisper
 
 ## speech_recognition Parameters

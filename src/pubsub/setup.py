@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'py_pubsub'
+package_name = 'pubsub'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
-            'talker = py_pubsub.publisher:main',
-            'listener = py_pubsub.subscriber:main',
+            'talker = pubsub.publisher:main',
+            'listener = pubsub.subscriber:main',
         ],
     },
 )

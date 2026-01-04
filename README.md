@@ -37,14 +37,14 @@ make clean   # Remove build artifacts
 
 ## Projects
 
-### py_pubsub - Basic Publisher/Subscriber
+### pubsub - Basic Publisher/Subscriber
 My first ROS2 package.
 `talker` publishes messages to `chatter` topic on interval.
 `listener` logs messages from `chatter` topic.
 
 ```bash
-ros2 run py_pubsub talker
-ros2 run py_pubsub listener
+ros2 run pubsub talker
+ros2 run pubsub listener
 ```
 
 ### speech_recognition - Local Speech Recognition
