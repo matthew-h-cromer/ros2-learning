@@ -43,7 +43,8 @@ My first ROS2 package.
 `listener` logs messages from `chatter` topic.
 
 ```bash
-ros2 run pubsub talker
+ros2 launch pubsub pubsub_launch.py  # Launch both together
+ros2 run pubsub talker               # Or run individually
 ros2 run pubsub listener
 ```
 
