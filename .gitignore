@@ -1,0 +1,17 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Models (auto-downloaded on first run)
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+venv/
+
+# IDE
+.vscode/
+.idea/
