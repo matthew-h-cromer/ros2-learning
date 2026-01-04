@@ -1,6 +1,6 @@
 # ROS2 Learning Project
 
-ROS2 Kilted workspace for learning. Target: local + Raspberry Pi.
+ROS2 Kilted workspace for learning.
 
 ## Commands
 - Build: `colcon build --symlink-install`
@@ -10,6 +10,15 @@ ROS2 Kilted workspace for learning. Target: local + Raspberry Pi.
 
 ## Packages
 - `py_pubsub` - Basic publisher/subscriber example
+- `speech_recognition` - Local speech-to-text using Whisper
+
+## speech_recognition Parameters
+- `model` (default: small) - Whisper model size
+- `sample_rate` (default: 16000) - Audio sample rate
+- `device_index` (default: -1) - Audio device (-1 = system default)
+- `topic_name` (default: speech) - Output topic name
+- `vad_threshold` (default: 0.5) - VAD confidence threshold
+- `vad_silence_ms` (default: 500) - Silence duration to end utterance
 
 ## Style
 - Python: snake_case, type hints encouraged

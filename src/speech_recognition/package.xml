@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>speech_recognition</name>
+  <version>0.1.0</version>
+  <description>Local speech recognition using Whisper</description>
+  <maintainer email="matthew.h.cromer@gmail.com">Matthew Cromer</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>faster-whisper</exec_depend>
+  <exec_depend>silero-vad</exec_depend>
+  <exec_depend>sounddevice</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
